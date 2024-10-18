@@ -2,7 +2,11 @@
   "name": "dumb-bot",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc src/index.ts",
+    "start": "tsc scr/index.ts && node ."
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
